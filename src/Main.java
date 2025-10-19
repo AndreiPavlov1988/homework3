@@ -53,5 +53,16 @@ public class Main {
         } else {
             System.out.println("Вагон полностью забит");
         }
+//task7
+        int one = 2;
+        int two = 6;
+        int three = 5;
+        if (one >= two && one >= three) {
+            System.out.println("Наибольшее число: " + one);
+        } else if (two >= one && two >= three) {
+            System.out.println("Наибольшее число: " + two);
+        } else {
+            System.out.println("Наибольшее число: " + three);
+        }
     }
 }
