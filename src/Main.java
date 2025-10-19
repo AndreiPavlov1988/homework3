@@ -44,5 +44,14 @@ public class Main {
         } else {
             System.out.println("Если возраст ребенка равен " + age2 + ", то ему можно кататься на аттракционе без сопровождения взрослого");
         }
+//task6
+        int peopleCount = 83;
+        if (peopleCount < 60) {
+            System.out.println("В вагоне есть сидячие и стоячие места");
+        } else if (peopleCount < 102) {
+            System.out.println("В вагоне остались только стоячие места");
+        } else {
+            System.out.println("Вагон полностью забит");
+        }
     }
 }
